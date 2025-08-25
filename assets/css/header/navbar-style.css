@@ -1,5 +1,10 @@
 @import url("../variables/variables.css");
 
+.navbar-brand {
+    transform: scale(0.90);
+    padding-bottom: 0px !important;
+}
+
 .navbar-custom {
     background-color: transparent !important;
 }
@@ -27,5 +32,27 @@
 }
 
 .navbar-nav {
-    align-items: flex-start !important;
+    align-items: center !important;
+}
+
+.navbar-scrolled {
+    backdrop-filter: blur(5px) !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
+}
+
+.no-border {
+    border-bottom: none !important;
+}
+
+@media (max-width: 990px) {
+    .navbar {
+        padding: 0px 0px 0px 0px !important;
+    }
+
+    .navbar .container {
+        max-width: 100% !important;
+        backdrop-filter: blur(5px) !important;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
+        border-bottom: none !important;
+    }
 }
