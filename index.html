@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Art Framing</title>
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/header/header-style.css" />
     <link rel="stylesheet" href="assets/css/header/navbar-style.css" />
     <link rel="stylesheet" href="assets/css/header/navbar-animation.css" />
-    <link rel="stylesheet" href="assets/css/about/about.css" />
+    <link rel="stylesheet" href="assets/css/about/about-style.css" />
+    <link rel="stylesheet" href="assets/css/services/services-style.css" />
 </head>
 
 <body>
@@ -45,22 +47,68 @@
             </div>
         </nav>
 
-        <div class="container" id="header-title">
-            <h1>
-                <span>Inovação</span> em cada estrutura, <span>segurança</span> em cada detalhe.
-            </h1>
+        <div class="container">
+            <div class="row" id="header-title">
+                <h1>
+                    <span>Inovação</span> em cada estrutura, <span>segurança</span> em cada detalhe.
+                </h1>
+            </div>
         </div>
     </header>
 
     <section id="about">
         <div class="container">
-            <h2>SOBRE NÓS</h2>
+            <div class="row">
+                <h2>SOBRE NÓS</h2>
 
-            <p>
-                Somos uma construtora especializada em steel frame, formada por uma equipe de profissionais
-                com mais de 20 anos de experiência no setor da construção civil. Atuamos em Guarapuava-PR e região,
-                oferecendo soluções rápidas, seguras e sustentáveis para residências, comércios e obras comerciais.
-            </p>
+                <p>
+                    Somos uma construtora especializada em steel frame, formada por uma equipe de profissionais
+                    com mais de 20 anos de experiência no setor da construção civil. Atuamos em Guarapuava-PR e região,
+                    oferecendo soluções rápidas, seguras e sustentáveis para residências, comércios e obras comerciais.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>SERVIÇOS</h2>
+
+            <div class="row">
+                <div class="div-service-items col-lg-4">
+                    <div class="service-item">
+                        <p class="service-item-title">Arquitetônico</p>
+                        <p class="service-item-content">adaptação para steel frame, aproveitando a leveza e
+                            flexibilidade.
+                        </p>
+                    </div>
+
+                    <div class="service-item">
+                        <p class="service-item-title">Elétrico, hidráulico e hidrossanitário</p>
+                        <p class="service-item-content">integrados ao sistema modular.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="div-service-items col-lg-4 order-md-last">
+                    <div class="service-item">
+                        <p class="service-item-title">Estrutural</p>
+                        <p class="service-item-content">dimensionamento de perfis metálicos, vigas, pilares e lajes.
+                        </p>
+                    </div>
+
+                    <div class="service-item">
+                        <p class="service-item-title">Projeto executivo completo</p>
+                        <p class="service-item-content">detalhamento para fabricação e montagem.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4" id="stamp-logo">
+                    <img src="./assets/img/stamp.png" alt="Logo - Art Framing Soluções Construitivas" />
+                </div>
+            </div>
+
         </div>
     </section>
 
