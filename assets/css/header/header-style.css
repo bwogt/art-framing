@@ -1,10 +1,10 @@
-@import url("variables.css");
+@import url("../variables/variables.css");
 
 #header {
   position: relative;
   height: 40vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../img/header.jpeg") no-repeat center center/cover;
+    url("../../img/header.jpeg") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -17,19 +17,14 @@
   justify-content: end;
 }
 
-/* #header-title h1 {
-  font-size: 32px;
-  color: #fff;
-} */
-
-#header-title h1  {
+#header-title h1 {
   font-size: 32px;
   color: #fff;
 }
 
-#header-title h1 span{
-    border-bottom: 2.5px solid var(--primary-color);
-    border-image: linear-gradient(to right, var(--primary-color), rgba(0,0,0,0)) 1;
+#header-title h1 span {
+  border-bottom: 2.5px solid var(--primary-color);
+  border-image: linear-gradient(to right, var(--primary-color), rgba(0, 0, 0, 0)) 1;
 }
 
 @media (max-width: 1400px) {

@@ -1,10 +1,18 @@
-@import url('variables.css');
+.animated-icon span:nth-child(1) {
+  top: 0px;
+}
 
-.animated-icon span:nth-child(1) { top: 0px; }
-.animated-icon span:nth-child(2) { top: 8px; }
-.animated-icon span:nth-child(3) { top: 16px; }
+.animated-icon span:nth-child(2) {
+  top: 8px;
+}
 
-.navbar-toggler-icon { display: none; }
+.animated-icon span:nth-child(3) {
+  top: 16px;
+}
+
+.navbar-toggler-icon {
+  display: none;
+}
 
 .animated-icon {
   width: 30px;
