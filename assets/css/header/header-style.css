@@ -12,20 +12,16 @@
   padding-bottom: 30px;
 }
 
-#header-title {
-  display: flex;
-  justify-content: end;
-}
-
-#header-title h1 {
+#header h1  {
   font-family: var(--font-poppins), sans-serif;
   font-size: 32px;
   color: #fff;
+  text-align: right;
 }
 
-#header-title h1 span {
+#header h1 span {
   border-bottom: 2.5px solid var(--primary-color);
-  border-image: linear-gradient(to right, var(--primary-color), rgba(0, 0, 0, 0)) 1;
+  border-image: linear-gradient(to right, var(--primary-color),rgba(0, 0, 0, 0)) 1;
 }
 
 @media (max-width: 1400px) {
@@ -33,14 +29,17 @@
     height: 34vh !important;
   }
 
-  #header-title h1 {
+  #header h1 {
     font-size: 22px;
-    text-align: right;
   }
 }
 
 @media (max-width: 768px) {
-  #header-title h1 {
+  #header {
+    height: 38vh !important;
+  }
+
+  #header h1 {
     font-size: 20px;
   }
 }
