@@ -1,0 +1,45 @@
+@import url("../variables/variables.css");
+
+#ventures {
+    background-color: var(--secondary-color);
+}
+
+#ventures .row>div {
+    display: flex;
+    justify-content: center;
+}
+
+.ventures-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ventures-item img {
+    width: 80%;
+    border-radius: 6px;
+    border: 1px solid var(--primary-color);
+    margin-bottom: 10px;
+}
+
+#ventures-item-title {
+    color: var(--primary-color);
+    font-family: var(--font-poppins), sans-serif;
+    font-weight: 700;
+}
+
+#ventures-item-content {
+    font-family: var(--font-poppins), sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .ventures-item {
+        margin-bottom: 40px;
+    }
+
+    .ventures-item img {
+        width: 65%;
+    }
+}
