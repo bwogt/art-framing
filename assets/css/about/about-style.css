@@ -12,8 +12,9 @@
 }
 
 #about p {
-    color: #fff;
+    font-family: var(--font-poppins), sans-serif;
     font-size: 18px;
+    color: #fff;
 }
 
 @media (max-width: 1400px) {
