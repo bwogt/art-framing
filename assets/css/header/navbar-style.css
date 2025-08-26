@@ -1,7 +1,7 @@
 @import url("../variables/variables.css");
 
 .navbar-brand {
-    transform: scale(0.90);
+    transform: scale(0.80);
     padding-bottom: 0px !important;
 }
 
@@ -52,7 +52,7 @@
     }
 
     .navbar-brand {
-        transform: scale(0.80);
+        transform: scale(0.70);
     }
 
     .navbar .container {
