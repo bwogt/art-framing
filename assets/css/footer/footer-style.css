@@ -50,4 +50,9 @@ footer a {
     footer .container .row div:nth-child(1) {
         margin-bottom: 30px;
     }
+
+    #footer-logo {
+        display: flex;
+        justify-content: center;
+    }
 }
