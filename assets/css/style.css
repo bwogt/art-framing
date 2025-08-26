@@ -12,6 +12,25 @@ section h2 {
     margin-bottom: 50px;
 }
 
+.section-title,
+.section-content {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+}
+
+.section-title.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s;
+}
+
+.section-content.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.5s;
+}
+
 ::-webkit-scrollbar {
     width: 6px;
 }
