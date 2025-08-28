@@ -4,22 +4,56 @@
     background-color: var(--secondary-color);
 }
 
-#ventures .row>div {
-    display: flex;
-    justify-content: center;
-}
-
 .ventures-item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.ventures-item img {
+.video-container {
+    position: relative;
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.video-container img {
     width: 80%;
     border-radius: 6px;
     border: 1px solid var(--primary-color);
     margin-bottom: 10px;
+    aspect-ratio: 16/9;
+}
+
+.video-container:hover .video-preview {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.video-container .play-button {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.video-container .play-button::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #ffffff;
+    margin-left: 5px;
 }
 
 #ventures-item-title {
@@ -37,9 +71,5 @@
 @media (max-width: 992px) {
     .ventures-item {
         margin-bottom: 40px;
-    }
-
-    .ventures-item img {
-        width: 65%;
     }
 }
