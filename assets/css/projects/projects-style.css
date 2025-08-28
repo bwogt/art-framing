@@ -1,10 +1,10 @@
 @import url("../variables/variables.css");
 
-#ventures {
+#projects {
     background-color: var(--secondary-color);
 }
 
-.ventures-item {
+.projects-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,20 +56,20 @@
     margin-left: 5px;
 }
 
-#ventures-item-title {
+#projects-item-title {
     color: var(--primary-color);
     font-family: var(--font-poppins), sans-serif;
     font-weight: 700;
 }
 
-#ventures-item-content {
+#projects-item-content {
     font-family: var(--font-poppins), sans-serif;
     color: #fff;
     text-align: center;
 }
 
 @media (max-width: 992px) {
-    .ventures-item {
+    .projects-item {
         margin-bottom: 40px;
     }
 }

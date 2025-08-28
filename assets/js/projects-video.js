@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             videoContainers.forEach(otherContainer => {
                 if (otherContainer !== container && otherContainer.querySelector('iframe')) {
                     otherContainer.innerHTML = `
-                        <img src="assets/img/ventures.png">
+                        <img src="assets/img/projects.png">
                         <div class="play-button"></div>
                     `;
                 }
